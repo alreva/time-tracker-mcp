@@ -20,3 +20,20 @@ The solution file `TimeTracker.sln` includes the API, agent and backoffice proje
 3. The client project can be started with `npm start` once dependencies are installed in `src/TimeTracker.Client`.
 
 This layout is intended as a starting point and will evolve as features are implemented.
+
+### Project Structure
+
+```
+time-tracker-mcp/
+├── src/
+│   ├── TimeTracker.Api/
+│   │   └── Controllers/
+│   ├── TimeTracker.Agent/
+│   │   └── Services/
+│   ├── TimeTracker.Backoffice/
+│   │   └── Pages/
+│   └── TimeTracker.Client/
+└── tests/
+```
+
+Each project has its own directory with source files grouped under these folders.

@@ -1,4 +1,9 @@
 var builder = WebApplication.CreateBuilder(args);
+
+builder.Services.AddRazorPages();
+
 var app = builder.Build();
-app.MapGet("/admin", () => "Backoffice running");
+
+app.MapRazorPages();
+
 app.Run();

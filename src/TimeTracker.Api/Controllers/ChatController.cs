@@ -5,7 +5,7 @@ using TimeTracker.Api.Services;
 namespace TimeTracker.Api.Controllers;
 
 [ApiController]
-[Route("[controller]")]
+[Route("api/[controller]")]
 public class ChatController : ControllerBase
 {
     private readonly IChatService _chatService;

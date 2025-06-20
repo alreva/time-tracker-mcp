@@ -2,4 +2,7 @@
   <ItemGroup>
     <ProjectReference Include="..\TimeTracker.Agent\TimeTracker.Agent.csproj" />
   </ItemGroup>
+  <ItemGroup>
+    <PackageReference Include="Swashbuckle.AspNetCore" />
+  </ItemGroup>
 </Project>

@@ -1,0 +1,25 @@
+# Build results
+bin/
+obj/
+
+# Visual Studio files
+.vs/
+
+# User-specific files
+*.user
+*.suo
+
+# Logs
+*.log
+
+# Node modules
+src/TimeTracker.Client/node_modules/
+
+# OS generated
+.DS_Store
+Thumbs.db
+
+# Dotnet specific
+.nuget/
+# Rider project files
+.idea/

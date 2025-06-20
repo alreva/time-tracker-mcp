@@ -1,0 +1,9 @@
+{
+  "name": "timetracker-client",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "start": "echo \"client placeholder\"",
+    "test": "echo \"no tests\""
+  }
+}
